@@ -10,30 +10,30 @@ Using these collections you can add or delete objects in different representatio
 Furthermore, the project also provides algorithms that leverage these collections for various purposes. 
 
 # Collections
-STUDENTS (fields: list of names, surname, semester, code, list of classes)
-TEACHERS (fields: list of names, surname, rank, code, list of classes)
-ROOMS (fields: number, type, list of classes)
-CLASSES (fields: name, code, duration, list of students, list of teachers)
+STUDENTS (fields: list of names, surname, semester, code, list of classes)<br/>
+TEACHERS (fields: list of names, surname, rank, code, list of classes)<br/>
+ROOMS (fields: number, type, list of classes)<br/>
+CLASSES (fields: name, code, duration, list of students, list of teachers)<br/>
 
 # Available Commands
-LIST     <COLLECTION>
-FIND     <COLLECTION> <FIELD = VALUE>
-EDIT     <COLLECTION> <FIELD = VALUE>
-ADD      <CLASS> <BASE|SECONDARY>
-DELETE   <CLASS> <FIELD = VALUE>
-UNDO
-REDO
-HISTORY
-QUEUE MODE:
-        -QUEUE ON
-        -QUEUE PRINT
-        -QUEUE COMMIT
-        -QUEUE DISMISS
-        -QUEUE OFF
-EXIT
+LIST     <COLLECTION> <br/>
+FIND     <COLLECTION> <FIELD = VALUE> <br/>
+EDIT     <COLLECTION> <FIELD = VALUE> <br/>
+ADD      <CLASS> <BASE|SECONDARY> <br/>
+DELETE   <CLASS> <FIELD = VALUE> <br/>
+UNDO <br/>
+REDO <br/>
+HISTORY <br/>
+QUEUE MODE: <br/>
+        -QUEUE ON <br/>
+        -QUEUE PRINT <br/>
+        -QUEUE COMMIT <br/>
+        -QUEUE DISMISS <br/>
+        -QUEUE OFF <br/>
+EXIT <br/>
 
 # Design Patterns
-- Adapter
-- Command
-- Iterator
-- Factory
+- Adapter <br/>
+- Command <br/>
+- Iterator <br/>
+- Factory <br/>
